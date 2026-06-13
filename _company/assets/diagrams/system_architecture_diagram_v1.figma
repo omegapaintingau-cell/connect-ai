@@ -1,0 +1,41 @@
+{
+  "Project Name": "Built by brush | Lead Nurturing System Architecture",
+  "Style Guide Adherence": "Primary Color: #2a7dff (Deep Blue); Secondary Color: #ffd900 (Accent Yellow)",
+  "Layout Type": "Horizontal Flowchart / Layered Blocks",
+  "Key Components & Connections": [
+    {
+      "Block 1 Name": "Client/Lander Page (Frontend)",
+      "Description": "Lead Magnet Download Form Submission",
+      "Function": "User Input Capture (Email, Name)"
+    },
+    {
+      "Connector A Label": "API Call / Webhook Trigger (POST)",
+      "Source": "Block 1",
+      "Target": "CRM/Automation Engine (Zapier/Make)"
+    },
+    {
+      "Block 2 Name": "Core Automation Engine (The Brain)",
+      "Description": "Webhook Listener, Data Validation, Scoring Logic Execution",
+      "Function": "Real-time Lead Score Calculation & Funnel Routing."
+    },
+    {
+      "Connector B Label": "Internal API Call",
+      "Source": "Block 2",
+      "Target": "Email Service Provider (ESP)"
+    },
+    {
+      "Block 3 Name": "CRM/Database (The Source of Truth)",
+      "Description": "Lead Record Storage, Stage Tracking, Score History.",
+      "Function": "Single source for all customer data and status."
+    },
+    {
+      "Connector C Label": "External Action",
+      "Source": "Block 2",
+      "Target": "ESP (Welcome/Nurturing Email Send)"
+    }
+  ],
+  "Visual Hierarchy Notes": [
+    "CRM 블록을 중앙에 배치하여 모든 흐름이 '접점'하는 중심축임을 강조한다.",
+    "화살표(Connector) 라벨링 시, 실제 사용되는 기술 용어(API Call, Webhook Trigger 등)를 명확하게 기재한다."
+  ]
+}

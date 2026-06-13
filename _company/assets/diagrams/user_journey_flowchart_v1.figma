@@ -1,0 +1,31 @@
+{
+  "Project Name": "Built by brush | 1인 기업 자동화 여정 (User Journey)",
+  "Style Guide Adherence": "Primary Color: #38761d (Forest Green - Growth); Secondary Color: #f4b250 (Warm Orange - Action)",
+  "Layout Type": "Vertical Funnel / Step-by-Step Narrative",
+  "Key Stages & Transitions": [
+    {
+      "Stage Name": "STEP 0: 문제 인식 (Pain Point)",
+      "Icon/Visual Cue": "😭 막막함, 수기 작업 이미지",
+      "Text Focus": "수동적인 고객 관리와 예측 불가능한 리드 흐름에 지쳐있습니다."
+    },
+    {
+      "Stage Name": "STEP 1: 해결책 탐색 (Discovery)",
+      "Icon/Visual Cue": "💡 전구, Built by brush 로고",
+      "Text Focus": "Built by brush의 시스템을 통해 자동화가 가능함을 인지합니다. (Lead Magnet 다운로드)"
+    },
+    {
+      "Stage Name": "STEP 2: 자격 판별/육성 (Nurturing & Scoring)",
+      "Icon/Visual Cue": "📈 점수 그래프, 메일 아이콘",
+      "Text Focus": "시스템이 저의 행동을 분석하여 '구매할 준비가 된 시점'을 알려줍니다. (자동 스코어링)"
+    },
+    {
+      "Stage Name": "STEP 3: 전환 및 계약 (Conversion)",
+      "Icon/Visual Cue": "🏆 트로피, 컨설팅 미팅 이미지",
+      "Text Focus": "가장 최적화된 시점에 유료 워크숍이나 전담 컨설팅 제안을 받고 결정을 내립니다."
+    }
+  ],
+  "Visual Hierarchy Notes": [
+    "전환(Transition) 부분에 '자동화 엔진'이 조용히 작동하는 역할을 담당하며, 사용자에게는 보이지 않지만 가장 중요한 요소임을 강조한다.",
+    "각 단계마다 Emotional Curve를 넣어 감정적 변화에 초점을 맞춘다."
+  ]
+}
